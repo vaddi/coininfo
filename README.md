@@ -54,3 +54,9 @@ To update simply change into the Directory and exec:
 
 This will replace all Files, instead your `config.php` File to a new version.
 
+Find Out if there are some newer Version available you can use this Bash oneliner:
+
+    [ $(git -C $(pwd) rev-parse HEAD) = $(git -C $(pwd) ls-remote $(git -C $folder rev-parse --abbr} | \sed 's/\// /g') | cut -f1) ] && echo "No Updates" || echo "Updates"
+
+
+
