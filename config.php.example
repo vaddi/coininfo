@@ -1,0 +1,16 @@
+<?php
+
+//
+// A PHP Luno aka bitx API 2 Prometheus Endpoint
+//
+
+// Get the current Bitcoin exchange in e from bitx API
+// If you enter you API Key and Secret (https://www.luno.com/en/developers) below, 
+// you get metrics for your wallets. Feel free to edit and share.
+define( 'APIKEY', '' ); // get your own: https://www.luno.com/wallet/settings/api_keys
+define( 'APISEC', '' ); // API Secret
+
+// Luno/BitX API URL
+define( 'APIURL', 'https://api.mybitx.com/api/1/' );
+
+?>
