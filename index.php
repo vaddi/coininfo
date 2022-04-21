@@ -4,7 +4,7 @@
 // A PHP Luno aka bitx API 2 Prometheus Endpoint
 //
 
-$configfile = __DIR__ . '/config.php';
+$configfile = __DIR__ . '/inc/config.php';
 if( ! is_file( $configfile ) ) {
   echo "Unable to load config file.";
   exit;
